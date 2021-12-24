@@ -14,7 +14,7 @@ A package that has all the components for mapping and map overlays used in softw
 **Swift Package Manager** (XCode 13)
 
 1. Select **File** > **Swift Packages** > **Add Package Dependency…** from the **File** menu.
-2. Paste `https://github.com/dyerlab/DabSpatial.git` in the dialog box.
+2. Paste `https://github.com/dyerlab/DLabSpatial.git` in the dialog box.
 3. Follow the Xcode's instruction to complete the installation.
 
 > Why not CocoaPods, or Carthage, or blank?
