@@ -15,7 +15,7 @@ import PackageDescription
 
 let package = Package(
     name: "DLabSpatial",
-    platforms: [ .macOS(.v14),
+    platforms: [ .macOS(.v15),
                  .iOS(.v17)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
