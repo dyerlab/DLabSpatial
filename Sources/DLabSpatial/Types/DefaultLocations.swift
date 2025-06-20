@@ -1,12 +1,12 @@
 //
-//  File.swift
-//  
+//  DefaultLocations.swift
+//
 //
 //  Created by Rodney Dyer on 12/9/21.
 //
 
 import Foundation
-import MapKit 
+import MapKit
 
 enum DefaultLocations {
     static let center = CLLocationCoordinate2D(latitude: 37.5407, longitude: -77.4360)

@@ -1,11 +1,22 @@
-// swift-tools-version:5.5
+// swift-tools-version: 6.1
 // The swift-tools-version declares the minimum version of Swift required to build this package.
+//                      _                 _       _
+//                   __| |_   _  ___ _ __| | __ _| |__
+//                  / _` | | | |/ _ \ '__| |/ _` | '_ \
+//                 | (_| | |_| |  __/ |  | | (_| | |_) |
+//                  \__,_|\__, |\___|_|  |_|\__,_|_.__/
+//                        |_ _/
+//
+//         Making Population Genetic Software That Doesn't Suck
+//
+//  Copyright (c) 2021-2025 The Dyer Laboratory.  All Rights Reserved.
 
 import PackageDescription
 
 let package = Package(
     name: "DLabSpatial",
-    platforms: [.iOS(.v15), .macOS(.v12)],
+    platforms: [ .macOS("13"),
+                 .iOS(.v17)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
